@@ -205,10 +205,8 @@ tag_ids = [nid for nid in nodes if kind_of(nid) == "tag"]
 # -------------------------
 NAME = "Dheer Doshi"
 LOCATION = "Boston, MA 02215"
-PHONE = "(857) 565-6018"
 EMAIL = "dheer@bu.edu"
-LINKEDIN = "linkedin.com/in/dheer-doshi/"
-EDU_LINE = "Boston University — B.S. in Data Science (Graduation: May 2026)"
+EDU_LINE = "Boston University — B.S. in Data Science"
 LANGS = ["English", "Hindi", "Spanish"]
 
 st.markdown(
@@ -217,9 +215,7 @@ st.markdown(
       <div class="name"><span>{NAME}</span><span class="accent-dot"></span></div>
       <div class="subline">
         <span>📍 {LOCATION}</span><span class="sep">•</span>
-        <span>📞 {PHONE}</span><span class="sep">•</span>
         <span>✉️ {EMAIL}</span><span class="sep">•</span>
-        <span>🔗 {LINKEDIN}</span>
       </div>
       <div class="edu">
         <span class="pill"><span class="icon">🎓</span><b>Education</b></span>
