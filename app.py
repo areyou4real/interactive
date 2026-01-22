@@ -371,7 +371,7 @@ with left:
         layer_gap=layer_gap,
         y_spread=y_spread,
         label_mode=label_mode,
-        frame_ms=560,
+        frame_ms=1000,
     )
     st.plotly_chart(fig, use_container_width=True, config={"displaylogo": False})
 
